@@ -1,3 +1,31 @@
+# Code Book Containing Variables In The Tidy Data Set
+
+# Row labels for Activity and Subject Column 
+
+## Activity Column
+
+The Activity column describes the activity that the subject was engaged in. There are six possible activities: 
+
+* LAYING
+* SITTING
+* STANDING
+* WALKING
+* WALKING\_DOWNSTAIRS
+* WALKING\_UPSTAIRS
+
+## Subject Column
+
+The Subject column describes which subject was being measured. The 30 subjects are referred to by numbers, with the numbers ranging from 1 to 30. 
+
+# Combination of Activity and Subject
+
+The table is arranged so that each subject has one row for each of the activities i.e. 6 activities * 30 subjects = 180 rows. 
+
+The data in the rest of the columns contains the mean of each measurement for a given subject performing a given activity. 
+
+# Column Labels
+
+The rest of the columns contain the following measurements: 
 
 * **tBodyAcc-mean()-X**: time domain body acceleration in X direction - mean value
 * **tBodyAcc-mean()-Y**: time domain body acceleration in Y direction - mean value
